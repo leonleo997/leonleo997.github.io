@@ -1,0 +1,90 @@
+body{
+	background-image: url("../img/fondoEstudios.jpg");
+	background-size: cover; 
+	background-position: center;
+	background-repeat: repeat;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif !important;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+
+}
+
+#panelTitulo{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.6);
+	border-color: white;
+	text-align: center;
+}
+.panel{
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.6);
+	border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+	color: white;
+		font-size: 1.2em;
+
+}
+.navbar-inverse .navbar-brand{
+		font-size: 1.5em;
+		font-weight: bold;
+
+}
+
+.panel-body h1{
+	color: white;
+	font-weight: bold;
+	font-size: 600%;
+}
+
+.panel-body h2{
+	text-align: justify;
+	color: white;
+
+}
+
+hr{
+	width: 50%;
+}
+.fuente{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+img{
+	width: 40%;
+	height: 40%;
+	float:left; 
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 1%;
+
+}
+
+#gimnasio{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#panelInfo{
+	text-align: left;
+
+}
+
+#tituloGYM{
+	font-size: 400%;
+	margin-left: 15%;
+}
+
+#textoGYM{
+	font-size: 200%;
+}

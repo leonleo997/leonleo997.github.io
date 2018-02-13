@@ -1,0 +1,83 @@
+body{
+	background-image: url("../img/fondoEstudios.jpg");
+	background-size: cover; 
+	background-position: center;
+	background-repeat: repeat;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif !important;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+
+}
+
+#panelTitulo{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.6);
+	border-color: white;
+	text-align: center;
+}
+.panel{
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.6);
+	border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+	color: white;
+		font-size: 1.2em;
+
+}
+.navbar-inverse .navbar-brand{
+		font-size: 1.5em;
+		font-weight: bold;
+
+}
+
+.panel-body h1{
+	color: white;
+	font-weight: bold;
+	font-size: 600%;
+}
+
+.panel-body h2{
+	text-align: justify;
+	color: white;
+
+}
+
+hr{
+	width: 50%;
+}
+.fuente{
+	font-family: 'Oswald', sans-serif;
+}
+
+#panelInfo{
+	text-align: left;
+
+}
+
+#tabla{
+	margin-left: 10%; 
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.9); !important;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 5%;
+	margin-top: 5% !important;
+}
+
+thead tr th{
+	font-weight: bold;	
+	font-size: 150%;
+}
+
+table tbody tr:hover{
+	color: black;
+}
