@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="../css/info.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<title>Inicio</title>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><i class="fas fa-child"></i> YESID LÓPEZ</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li class="active"><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+	        <li><a href="estudios.html"><i class="fas fa-graduation-cap"></i> Estudios</a></li>
+	        <li><a href="intereses.html"><i class="fas fa-gamepad"></i> Intereses</a></li>
+	      </ul>
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="contactar.html"><i class="fas fa-id-card"></i> INFO</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>	
+
+	<div  id="panelTitulo" class="panel panel-default">
+	  <div class="panel-body fuente">
+	  	<h1>INFORMACIÓN</h1>
+	  	<hr>
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+	  <div id="panelInfo" class="panel-body fuente">
+	  		<div id="tabla" class="panel panel-default">
+		  <table class="table table-hover blanco" style="text-align: left;">
+		    <thead>
+		      <tr>
+		        <th>Componente</th>
+		        <th>Difultad</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>Tablas</td>
+		        <td>A la hora de pasar el mouse sobre una fila de la tabla se volvía blanco, y ya que el color de la letra era blanco este no se veía, para solucionarlo se modificó la clase hoover modificando el color al negro</td>
+		      </tr>
+		      <tr>
+		        <td>Imagenes</td>
+		        <td>En la sección de intereses deseaba poner la imágen del gimnasio y el texto justo al lado de la imágen, con el objetivo de obtener el resultado esperado. para solucionarlo se usó Span ya que a diferencia de Div este no saltaba de línea</td>
+		      </tr>
+		      <tr>
+		        <td>Google Fonts</td>
+		        <td>Se usó este conjunto de letras que sirvieron para agregar variedad. Esto debido a que el conjunto de letras que se encuntran por defecto no son muy variadas. Sin embargo a la hora de implementarla en ocaciones se debía usar !important debido a que por otras clases la letra estaba modificada por defecto, o en ocasiones, debido a la herencia, no se aplicaban los estilos.</td>
+		      </tr>
+		      <tr>
+		        <td>Fontawesome</td>
+		        <td>Este se usó para adicionar íconos al navbar, se encontró dificultades como que los íconos quedaban debajo del texto que lo acompañaba</td>
+		      </tr>
+		      <tr>
+		        <td>Modal</td>
+		        <td>Este componente se usó para crear ventanas emergentes, sin embargo, hubo problemas debido a que el botón de cerrar no se encontraba centrado. Para solucionarlo se creó una hoja de estilos donde se centraba el boton del Modal</td>
+		      </tr>
+		      <tr>
+		        <td>Nabvar</td>
+		        <td>Para esta herramienta no hubo problemas debido a que se manejó en clase.</td>
+		      </tr>
+		      <tr>
+		        <td>Scrollspy</td>
+		        <td>En este componente se presentó la mayor cantidad de problemas, pues para iniciar se debió ajustar el tamaño de las imágenes a un ancho y alto fijo. También, al tratar de centrar el componente se presentó problemas.</td>
+		      </tr>
+		      <tr>
+		        <td>ButtonGroups</td>
+		        <td>Para este componente se presentó el mismo problema que en las tablas y se solucionó de la misma manera. También, encontramos problemas debido a que este contiene conjuntos de botones y se reemplazó por enlaces</td>
+		      </tr>
+		      <tr>
+		        <td>Panels</td>
+		        <td>Este componente fue usado en vez de un Div con la clase Contenedor. Modificando el nivel de opacidad más claro para un mejor efecto</td>
+
+		      </tr>
+		      <tr>
+		        <td>Jumbotron</td>
+		        <td>Con este componente no se presento problemas pues ya que se trabajó en clase</td>
+		      </tr>
+		    </tbody>
+		  </table>
+
+
+		</div>
+	</div>
+
+	  	
+	  </div>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+</html>

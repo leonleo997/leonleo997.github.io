@@ -1,0 +1,116 @@
+body{
+	background-image: url("../img/fondoEstudios.jpg");
+	background-size: cover; 
+	background-position: center;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif !important;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+
+}
+
+.panel{
+	margin-top: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.) !important;
+	border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+	color: white;
+		font-size: 1.2em;
+
+}
+.navbar-inverse .navbar-brand{
+		font-size: 1.5em;
+		font-weight: bold;
+
+}
+
+.panel-body h1{
+	color:white;
+	font-weight: bold;
+	font-size: 400%;
+	text-align: center;
+}
+
+.panel-body h2{
+	text-align: justify;
+	color: white;
+}
+#pestanias{
+	border:thin;
+}
+
+#contenedorCarousel{
+	margin-top: 15%;
+}
+
+
+#contenedorEstudios{
+	background: rgba(0,0,0,0.6);
+	margin-top: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center !important;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+#myCarousel{
+	width: 100%;
+	height: 100%;
+}
+
+#ajuste{
+	width: 70%;
+	margin-top: 5%;
+}
+
+.blanco{
+	color:white;
+	text-align: justify;
+}
+
+#tabla{
+	margin-left: 10%; 
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.9); !important;
+	font-weight: bold;
+	margin-bottom: 5%;
+	margin-top: 0% !important;
+}
+
+table tbody tr:hover{
+	color: black;
+}
+
+#botones a{
+	background-color: rgba(0,0,0,0.5);
+	border-color: white;
+	font-weight: bold;
+}
+
+#botones{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.panel-body{
+	text-align: center !important;
+}
+
+#botones a:hover{
+	background-color: white;
+	color: black;
+}
+
+.fuente{
+	font-family: 'Oswald', sans-serif !important;
+}
